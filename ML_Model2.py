@@ -14,7 +14,7 @@ from sklearn.feature_extraction import DictVectorizer
 from preprocessing import preprocessing
 from keras.callbacks import LearningRateScheduler
 import tensorflow as tf
-from model3 import voxmodel
+from VoxModel import voxmodel
 
 #os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
